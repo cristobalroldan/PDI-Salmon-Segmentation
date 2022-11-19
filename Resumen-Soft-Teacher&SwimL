@@ -1,3 +1,5 @@
 Soft-Teacher consiste en detección de objetos semisupervisada de extremo a extremo.
 Podemos encontrar su GIT acá : https://github.com/Yuang-Deng/SoftTeacher
 Y Su PDF oficial acá: https://arxiv.org/abs/2106.09018
+
+Consiste en un algoritmo de detección de objetos semi-supervisado de extremo a extremo, siendo su cualidad principal entregar pseudo-etiquetas para imágenes sin etiquetar, facilitando y aportando en el proceso de entrenamiento para detección de objetos. Su potencial permite reducir el cuello de botella que genera la creación de etiquetas para el entrenamiento de redes. Utiliza imágenes etiquetadas y sin etiquetar, mezcladas en una proporción pre establecida, donde corre un modelo denominado alumno y otro maestro, encargados de entrenar y de anotar respectivamente.
